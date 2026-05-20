@@ -7,7 +7,7 @@
 plugin: atgreen.dirq.dirq
 
 # Optional: filter to a subset of the fleet using a DirQ query.
-# query: "SELECT os_info.hostname WHERE tag.env = 'prod'"
+query: "SELECT os_info.hostname WHERE os_info.os = 'linux'"
 
 # Optional: set to false to keep hosts in inventory but use SSH/WinRM
 # instead of the DirQ connection plugin for execution.
